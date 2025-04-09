@@ -2,6 +2,8 @@
 #include <fstream>
 #include <ctime>
 #include <string>
+#include <cstring>
+
 
 void logAction(const std::string& team, const std::string& action) {
     std::ofstream log("logs/red_vs_blue.log", std::ios::app);
